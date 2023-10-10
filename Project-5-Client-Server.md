@@ -95,6 +95,10 @@
 
 ## In conclusion, we are able to successfully connect to the DB Server from Client and can equally view the database table.
 
-*The documentation can be modify later to effect changes*
+> *The documentation can be modify later to effect changes*
+
+| Name | Description | Date |
+|:---  |    :----:   |  ---:| 
+|Olaolu| Project-5  |10-10-23| 
 
 *Thank you*
