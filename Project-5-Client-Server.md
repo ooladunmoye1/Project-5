@@ -95,4 +95,6 @@
 
 ## In conclusion, we are able to successfully connect to the DB Server from Client and can equally view the database table.
 
+*The documentation can be modify later.*
+
 *Thank you*
