@@ -10,7 +10,7 @@
 ## In Project 1, we implemented a LAMP STACK website.
 ## Let us take an example of commercially deployed LAMP     website – *www.propitixhomes.com.*
 
-![curl -Iv www.propitixhomes.com](images/curl-Iv-propitixhomes..PNG)
+![curl -Iv www.propitixhomes.com](./Images/curl-Iv-propitixhomes..PNG)
 
 ## Self Study 
 
@@ -38,16 +38,16 @@
 - **sudo apt updaate -y** 
 - **sudo apt install mysql-server**
 
-![sudo apt install mysql-server](images/Sudo-apt-install-mysql-server.PNG)
+![sudo apt install mysql-server](./Images/Sudo-apt-install-mysql-server.PNG)
 
 - ## sudo mysql_secure_installation
 **sudo mysql_secure_installation**
 
-![sudo mysql secure installation](images/sudo-mysql-secure-installation.PNG)
+![sudo mysql secure installation](./Images/sudo-mysql-secure-installation.PNG)
 
 - ## sudo mysql
 
-![run sudo mysql](images/sudo-mysql.PNG)
+![run sudo mysql](./Images/sudo-mysql.PNG)
 
 **CREATE USER 'remote_user'@'%'IDENTIFIED WITH mysql_native_password BY *'password'*;**
 - ## Create REMOTE_USER to use mysql_native_password
@@ -63,14 +63,14 @@
 
 **FLUSH PRIVILEGES;**
 
-![sudo CREATE USER](images/create-user-create-database-grant-privileges.PNG)
+![sudo CREATE USER](./Images/create-user-create-database-grant-privileges.PNG)
 
 3. ## Configure MySQL server to allow connections from remote hosts.
  *Change **bind IP Address** for remote user to connect.*
 
 **sudo vi .etc/mysql/mysql.conf.d/mysqld.cnf**
 
-![sudo CREATE USER](images/bind-address.PNG)
+![sudo CREATE USER](./Images/bind-address.PNG)
 
 **sudo systemctl restart mysql**
 
@@ -80,19 +80,19 @@
 - **sudo apt updaate -y** 
 - **sudo apt install mysql-clien**
 
-![sudo apt install mysql-client](images/sudo-apt-install-mysql-client.PNG)
+![sudo apt install mysql-client](./Images/sudo-apt-install-mysql-client.PNG)
 
 ## View client private IP adrress and add to exception address to access mysql sever through security group
 
 5. ## connect to **database server** from client and login with password created.
 
-![remote to server from client](images/sudo-mysql-u-remote-user-h-ipaddress-p.PNG)
+![remote to server from client](./Images/sudo-mysql-u-remote-user-h-ipaddress-p.PNG)
 
 ## After successfully connected to the server then, we run below command to access the *database*.
 
 **Show DATABASES;**
 
-![remote to server from client](images/show-databases.PNG)
+![remote to server from client](./Images/show-databases.PNG)
 
 ## In conclusion, we are able to successfully connect to the DB Server from Client and can equally view the database table.
 
