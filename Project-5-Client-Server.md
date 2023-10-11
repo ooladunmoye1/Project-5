@@ -8,7 +8,7 @@
 
 # Real example of LAMP website
 ## In Project 1, we implemented a LAMP STACK website.
-## let us take an example of commercially deployed LAMP     website – *www.propitixhomes.com.*
+## Let us take an example of commercially deployed LAMP     website – *www.propitixhomes.com.*
 
 ![curl -Iv www.propitixhomes.com](images/curl-propitixhomes.com)
 
@@ -63,9 +63,10 @@
 
 **FLUSH PRIVILEGES;**
 
-[sudo CREATE USER](images/create-user-create-database-grant-privileges.PNG)
-3. ## configure MySQL server to allow connections from remote hosts.
- Change **bind IP Address** for remote user to connect.
+![sudo CREATE USER](images/create-user-create-database-grant-privileges.PNG)
+
+3. ## Configure MySQL server to allow connections from remote hosts.
+ *Change **bind IP Address** for remote user to connect.*
 
 **sudo vi .etc/mysql/mysql.conf.d/mysqld.cnf**
 
@@ -87,7 +88,7 @@
 
 ![remote to server from client](images/sudo-mysql-u-remote-user-h-ipaddress-p.PNG)
 
-## after successfully connected to the server then, we run below command to access the *database*.
+## After successfully connected to the server then, we run below command to access the *database*.
 
 **Show DATABASES;**
 
