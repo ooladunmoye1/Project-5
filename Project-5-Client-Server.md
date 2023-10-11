@@ -10,7 +10,7 @@
 ## In Project 1, we implemented a LAMP STACK website.
 ## Let us take an example of commercially deployed LAMP     website – *www.propitixhomes.com.*
 
-![curl -Iv www.propitixhomes.com](images/curl-propitixhomes.com)
+![curl -Iv www.propitixhomes.com](images/curl-Iv-propitixhomes..PNG)
 
 ## Self Study 
 
