@@ -22,7 +22,7 @@
 
 2. Refresh your knowledge of basic SQL commands, be able to perform simple **SHOW**, **CREATE**, **DROP**, **SELECT** and **INSERT SQL** queries.
 
-[Basic my sql command](https://www.w3schools.com/sql/)
+[MYSQL basic command](https://www.w3schools.com/sql/)
 # IMPLEMENT A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS).
 
 ## A Client Server Architecture is implemented using MySQL Database Management System (DBMS).
